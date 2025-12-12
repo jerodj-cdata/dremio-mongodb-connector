@@ -19,7 +19,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.google.common.annotations.VisibleForTesting;
 import io.protostuff.Tag;
 
-@SourceType(value = "MongoDBARP", label = "MongoDB",uiConfig = "mongodb-layout.json")
+@SourceType(value = "MongoDBARP", label = "CData MongoDB",uiConfig = "mongodb-layout.json")
 public class MongoDBConf extends AbstractArpConf<MongoDBConf> {
   private static final String ARP_FILENAME = "arp/implementation/mongodb-arp.yaml";
   private static final ArpDialect ARP_DIALECT =

@@ -10,7 +10,7 @@
         "isGeneral": true,
         "sections": [
           {
-            "name": "MongoDB Source",
+            "name": "CData MongoDB Source",
             "layout": "row",
             "elements": [
                 {
